@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.inicio {
+    padding: 20px;
+    background-color: #679cbb;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fusca {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
