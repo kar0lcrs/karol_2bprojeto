@@ -1,20 +1,67 @@
-h1 {
-    text-align: center;
-    padding: 20px;
+/*Pagina geral*/
+body {
+    background-color: #ffffff;
+    line-height: 1.6;
 }
 
+nav {
+    text-align: center;
+}
+
+/*caixas de elementos(divs, tags semanticas)*/
 .inicio {
-    padding: 20px;
+    margin-top: 0px;
+    padding: 5px;
     background-color: #679cbb;
+    text-align: center;
+    line-height: 0.6;
+}
+.inicio h1 {
+    background-color: white;
+    padding: 8px;
+}
+.inicio p {
+    text-align: center;
+    font-size: 22px;
+}
+.inicio img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.fusca, .expansao, .vw_brasil, .grupo_vw, .modernidade, .legado{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.fusca img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto; /*Espaçamento em cima/baixo e centraliza*/
+}
+
+.dica {
+    text-align: center;
+}
+
+.vw_brasil img {
+    display: block;
+    width: 100%;
+    max-width: 690px;
+    height: auto;
+    margin: 20px auto;
+}
+
+/*elementos especificos (paragrafo, titulos, etc)*/
+
+h1 {
     text-align: center;
 }
 
 h2 {
     text-align: center;
-}
-
-.fusca {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
